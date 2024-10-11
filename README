@@ -1,0 +1,25 @@
+# PRESENT24
+Implémentation d'un chiffrement par bloc (PRESENT24) et implémentation de l'attaque par le milieu sur la version double de ce chiffrement.
+
+
+# Langage utilisé
+- Python.
+- Vous devez avoir Python3 installé sur votre machine.
+
+
+# Utilisation
+Il suffit de se positioner dans le dossier MEDOUR_MIHET et lancer la commande: python3 DECHIFFREMENT.PY pour faire un chiffrement ou un dechifrement.
+
+
+# Couple clairs-chiffrés utilisé
+On a utilisé le clairs-chiffrés d'Alexandre Mihet:
+- (m1,c1) = (ddae7b, 856673) 
+- (m2,c2) = (fd1dc1,5aad58)
+
+En prenant en compte ces 2 couples clairs/chiffrés, nous avons trouvé 2 couples de clés différents que voici :
+
+Couple 1 :
+k1 = d4b8d8 k2 = f7e4c5
+
+Couple2 :
+k1 = b21a67 k2 = 05ac25
