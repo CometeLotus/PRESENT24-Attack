@@ -58,6 +58,7 @@ Entrez votre clé (en héxadécimal) :
 456def
 
 Le message chiffré est : b0402b
+```
 
 ## Documentation
 
